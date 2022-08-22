@@ -6,4 +6,5 @@ def palindrome (str_obj):
 
     else :
         return 'not palidrome'
-        
+
+print(palindrome('refer'))
