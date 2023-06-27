@@ -9,9 +9,9 @@ class Solution:
        n = 0
        cur = head
        while cur:
-           cur = cur.next
-           n+=1
-        self.head = head
+            cur = cur.next
+            n+=1
+            self.head = head
         def rec(st, end):
             if st > end: return None
             #left
@@ -25,4 +25,4 @@ class Solution:
             root.right = rec(mid+1,end)
             return root
 
-        return rec(0,n-1)
+    return rec(0,n-1)
